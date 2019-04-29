@@ -1,0 +1,31 @@
+@media screen and (max-width: 700px) {
+    div#burger {
+    color: white;
+    }
+
+    header nav {
+    position: absolute;
+    left: -99999em;
+    
+    }
+
+    header nav ul {
+    display: block;
+    }
+    
+    header nav.show {
+    left: 0;
+    top: 0;
+    }
+}
+@media screen and (max-width: 600px){
+    body#forside {
+        background-image:none;
+    }
+}
+
+@media screen and (max-width: 375px){
+    body#forside {
+        display: block;
+    }
+}
